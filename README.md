@@ -74,10 +74,10 @@ Once you have the sysdiagnose file, you can analyze it with this tool to extract
 
 ```bash
 # On Linux/macOS
-gcc -o BatteryCycleiOS BatteryCycleiOS.c -lz
+gcc -o BatteryCycleiOS BatteryCycleiOS.cpp -lz
 
 # On Windows with MSVC
-cl BatteryCycleiOS.c /link zlib.lib
+cl BatteryCycleiOS.cpp /link zlib.lib
 ```
 
 ## License

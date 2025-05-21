@@ -92,8 +92,5 @@ This project is licensed under the GNU General Public License v3.0.
 
 For bugs, feature requests, or general questions:
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
-
----
 
 **Note**: This tool is not affiliated with or endorsed by Apple Inc. All trademarks are the property of their respective owners.

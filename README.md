@@ -86,7 +86,7 @@ This project is licensed under the GNU General Public License v3.0.
 
 ## Contributors
 
-- Initial implementation by [Your Name or Username]
+- Initial implementation by MJ0011 of Kunlun Lab
 
 ## Support
 

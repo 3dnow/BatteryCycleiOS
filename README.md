@@ -16,13 +16,13 @@ This utility analyzes iOS sysdiagnose archives to extract and display battery he
 ## Usage
 
 ```
-BatteryHealthAnalyzer <Sysdiagnose Report tar.gz File>
+BatteryCycleiOS <Sysdiagnose Report tar.gz File>
 ```
 
 ### Example
 
 ```
-BatteryHealthAnalyzer Sysdiagnose_2025-05-15_13-45-32.tar.gz
+BatteryCycleiOS Sysdiagnose_2025-05-15_13-45-32.tar.gz
 ```
 
 ### Sample Output
@@ -74,10 +74,10 @@ Once you have the sysdiagnose file, you can analyze it with this tool to extract
 
 ```bash
 # On Linux/macOS
-gcc -o BatteryHealthAnalyzer main.c -lz
+gcc -o BatteryCycleiOS BatteryCycleiOS.c -lz
 
 # On Windows with MSVC
-cl main.c /link zlib.lib
+cl BatteryCycleiOS.c /link zlib.lib
 ```
 
 ## License
